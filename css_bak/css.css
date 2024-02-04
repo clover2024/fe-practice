@@ -1,0 +1,197 @@
+
+.site-head {
+    min-width: 1152px;
+    height: 150px;
+}
+
+.site-head .topbar {
+    min-width: 1152px;
+    height: 32px;
+    background-color: #2A2A2A;
+    line-height: 32px;
+    color: white;
+}
+
+.site-head .topbar a {
+    color: white;
+}
+
+.site-head .topbar .shortcut-links {
+    float: left;
+}
+
+.site-head .topbar .shortcut-links > ul > li {
+    float: left;
+    margin-right: 18px;
+    font-size: 14px;
+}
+
+.menu {
+    /* absolute位置是通过相对于父元素的左上角来定位 */
+    position: absolute;
+
+}
+
+/* 像素值（12px）是一个具体数值，被称为硬编码 */
+.have-menu {
+    padding-right: 12px;
+    position: relative;
+}
+
+
+.arrow {
+    position: absolute;
+    right:0;
+    top: 50%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s ease 0s;
+}
+
+.arrow b{
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.arrow i{
+    position: absolute;
+    left: 4px;
+    top: 0.5px;
+    width: 6px;
+    height: 6px;
+    background-color: #2A2A2A;
+    transform: rotate(45deg);
+}
+
+.topbar .menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 9999;
+    /* 隐藏 */
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+    padding: 10px;
+}
+
+.have-menu:hover .menu {
+    display: block;
+}
+
+.sqmenu {
+    width: 115px;
+}
+
+.scmenu {
+    width: 80px;
+}
+
+.jdmsmenu {
+    width: 80px;
+}
+
+.menu .menu-list li a{
+    font-size: 12px !important; 
+    color: #1C1F21;
+    line-height: 20px;
+}
+
+.menu .menu-list a:hover {
+    color: orange;
+}
+
+.menu-list li {
+    height: 20px;
+    line-height: 20px;
+}
+
+.topbar-r {
+    float: right;
+    width: 225px;
+}
+
+.topbar-r a, .topbar-r span {
+    margin-right: 11px;
+    font-size: 15px;
+}
+
+.topbar-r a:last-child {
+    margin-right: 0;
+}
+
+
+.main-nav li {
+    float: left;
+    margin-right: 18px;
+}
+
+.main-nav .menu {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+    padding: 10px;
+    display: none;
+}
+
+/* 画一个向下的白色三角形 */
+.main-nav .have-menu::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 0px;
+    height: 0px;
+    border: 4px solid transparent;
+    border-bottom: none;
+    /* 上面一个边框设置白色 */
+    border-top-color: white;
+    /* transition: transform .5s ease 0s; */
+}
+
+.main-nav dl dd a:hover {
+    color: orange;
+}
+
+.jjzyxmenu{
+    width: 150px;
+}
+.gtymenu{
+    width: 90px;
+}
+.ddwlmenu {
+    width: 190px;
+}
+.sdlymenu {
+    width: 160px;
+}
+
+.main-nav dd > a {
+    font-size: 12px;
+}
+
+.main-nav {
+    min-width: 1152px;
+    height: 40px;
+    background-color: #20BD9A;
+}
+
+.main-nav ul > li > a{
+    top: 18px;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.header-con {
+    
+}
